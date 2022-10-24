@@ -33,8 +33,8 @@ jobs:
       - name: Run a multi-line script
         run: |
           curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
-          sudo apt-get install -y nodejs
           mkdir hardhat-tutorial
+          sudo apt-get install -y nodejs
           cd hardhat-tutorial
           npm init
           npm install --save-dev hardhat
